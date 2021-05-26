@@ -1,0 +1,148 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+body{
+    font-family: 'Roboto', Arial, Helvetica, sans-serif;
+}
+
+main{
+    min-height: 80vh;
+}
+
+.hero{
+    display: grid;
+    min-height: 25vh;
+    background: url('../images/banner-card.jpg');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    align-content: center;
+    justify-items: center;
+}
+
+textarea{
+    resize: none;
+}
+
+.hero-text{
+    padding: 0.5rem 3rem;
+}
+
+.btn-my-request{
+    background: #c72c21;
+    color: #ffffff;
+    border-radius: 50%;
+    position: fixed;
+    bottom: 10px;
+    right: 10px;
+    z-index: 1;
+    transition: all 0.3s ease;
+    font-size: 1.3rem;
+    width: 45px;
+    height: 45px;
+}
+
+.btn-my-request:active{
+    background: #c72c21;
+    color: #ffffff;
+}
+
+.navbar-toggler .navbar-toggler-icon {
+    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgb(77, 77, 77)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
+}
+
+.navbar-toggler.navbar-toggler {
+    border-color: rgb(77, 77, 77);
+}
+
+.btn-do-requests{
+    background: #c72c21;
+    color: #ffffff;
+}
+
+td.price::before{
+    content: 'R$ ';
+}
+
+.obs p{
+    font-size: 0.7rem;
+}
+
+.btn-back, .btn-do-requests, .btn-finish-request{
+    background: #c72c21;
+    color: #ffffff;
+    transition: all 0.3s ease;
+}
+
+.btn-back:hover{
+    background: #1b6841;
+    color: #ffffff;
+}
+
+.btn-back{
+    border-radius: 50%;
+}
+
+.selected{
+    background: #9dbc2c33;
+}
+
+.banner-pratos{
+    background: url('../images/banner-porcoes.png');
+    background-position: center;
+    background-size: cover;
+}
+
+.banner-bebidas{
+    background: url('../images/banner-refri.png');
+    background-position: center;
+    background-size: cover;
+}
+
+.banner-burger{
+    background: url('../images/banner-burger.png');
+    background-position: center;
+    background-size: cover;
+}
+
+.banner-sobremesas{
+    background: url('../images/banner-sobremesas.png');
+    background-position: center;
+    background-size: cover;
+}
+
+.float-btn{
+    display: flex; 
+    justify-content: flex-end;
+}
+
+td{
+    font-size: 0.85rem;
+}
+
+input{
+    font-size: 0.85rem;
+    border: none;
+}
+
+footer{
+    background: #c72c21;
+    color: #ffffff;
+    display: grid;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    min-height: 20vh;
+}
+
+footer a, footer a:hover{
+    color: #ffffff;;
+    text-decoration: none;
+}

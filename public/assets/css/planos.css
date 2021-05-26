@@ -1,0 +1,121 @@
+h2{
+    font-size: 3rem;
+    font-weight: bold;
+}
+
+.plan{
+    display: grid;
+    align-content: center;
+    transition: all 0.3s ease;
+    animation: drop 1.5s;
+}
+
+h3{
+    font-weight: bold;
+    font-size: 2.5rem;
+}
+
+.price{
+    font-size: 1.5rem;
+    font-weight: medium;
+}
+
+.price::after{
+    content: '/mês';
+    font-size: 1rem;
+}
+
+.btn-join-us-master{
+    background: #ff951c;
+    color: #ffffff;
+    border-radius: 100px;
+}
+
+.btn-join-us-master:hover{
+    background: #d47100;
+    color: #ffffff;
+}
+
+
+@media (max-width: 1000px){
+    .hero-img{
+        width: 70%;
+    }
+
+    .hero-text{
+        margin-bottom: 2rem;
+    }
+
+    .plan .btn-join-us, .btn-join-us-master{
+        margin: auto;
+        width: 70%;
+    }
+    
+    .plan{
+        margin-bottom: 2rem;
+    }
+}
+
+@media (max-width: 780px){
+    main{
+        margin: auto;
+        width: 90%;
+    }
+
+    .hero-img{
+        width: 70%;
+    }
+
+    .hero-text{
+        text-align: center;
+    }
+
+    h1, h2{
+        font-size: 1.5rem;
+        text-align: center;
+    }
+
+    .plan .btn-join-us, .btn-join-us-master{
+        margin: auto;
+        width: 75%;
+    }
+    
+    .plan{
+        margin-bottom: 2rem;
+    }
+}
+
+@media (max-width: 460px){
+    .navbar-brand a{
+        font-size: 1.6rem;
+    }
+
+    .logo{
+        width: 55px;
+    }
+
+    .plan .btn-join-us, .btn-join-us-master{
+        margin: auto;
+        width: 85%;
+    }
+}
+
+@media (max-width: 370px){
+    .logo{
+        width: 65px;
+    }
+    
+    .navbar-brand a{
+        font-size: 1.2rem;
+    }
+}
+
+@media (max-width: 320px){
+    .logo{
+        width: 40px;
+    }
+    
+    .navbar-brand a{
+        font-size: 1.2rem;
+    }
+}

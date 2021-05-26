@@ -1,0 +1,39 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+body{
+    font-family: 'Roboto', Arial, Helvetica, sans-serif;
+}
+
+.logo{
+    width: 75px;
+}
+
+.bar-top{
+    color: #4d4d4d;
+    font-size: 2rem;
+}
+
+main{
+    min-height: 80vh;
+}
+
+footer{
+    background: #000000;
+    color: #ffffff;
+    display: grid;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    min-height: 20vh;
+}
+
+/* Login.html /*
+
